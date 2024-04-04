@@ -1,0 +1,57 @@
+body {
+    margin: 15%;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Esto asegura que el contenedor ocupe toda la altura de la ventana del navegador */
+}
+
+.container {
+    text-align: center; /* Alinea el contenido de forma central */
+}
+
+.stopwatch {
+    /* Tus estilos existentes */
+    /* No es una propiedad válida, debes usar "position: relative;" o "position: absolute;" dependiendo de tu diseño */
+    position: relative;
+    padding: 60px 80px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    border-radius: 80px;
+    border: 16px solid rgb(4, 4, 4);
+    width: 300px;
+    height: 300px;
+    margin-bottom: 100px;
+    background-image: url("https://i.pinimg.com/736x/3b/9c/61/3b9c61f7da668acbddba38f6ac9a12b7.jpg");
+}
+
+.crono {
+    /* Tus estilos existentes */
+    align-items: center;
+    color: rgb(230, 15, 184);
+    font-size: 80px;
+    font-family: Impact, Charcoal, sans-serif;
+    height: 20px;
+}
+
+#buttons {
+    /* Tus estilos existentes */
+    width: 200px;
+    height: 50px;
+    align-content: center;
+}
+
+button {
+    /* Tus estilos existentes */
+    width: 100px;
+    height: 80px;
+    border: rgb(12, 209, 51) solid 5px;
+    border-radius: 16px;
+    background-color: rgb(8, 8, 8);
+    font-size: large;
+    font-weight: 700;
+    color: rgb(170, 11, 185);
+    margin-left: 200px;
+}

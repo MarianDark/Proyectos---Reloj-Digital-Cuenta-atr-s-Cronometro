@@ -1,0 +1,28 @@
+body, html {
+  height: 100%;
+  margin: 15%;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%; /* Opcional: asegura que el contenedor ocupe todo el ancho */
+}
+
+.countdown {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centra horizontalmente */
+  width: 600px;
+  height: 100px;
+  margin-left: 300px;
+  padding: 40px;
+  background-image: url("https://es.digitaltrends.com/wp-content/uploads/2023/04/mejores-fondos-de-pantalla-7.jpg?p=1");
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
